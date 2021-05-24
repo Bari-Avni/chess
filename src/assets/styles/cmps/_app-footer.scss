@@ -1,0 +1,21 @@
+footer {
+    padding: 10px 0;
+    width: 100%;
+    // position: fixed;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+
+    .social-icon{
+        width: 20px;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    .social-icon:hover{
+        opacity: 0.6;
+    }
+    
+    .social-icon:not(:last-child){
+        margin-right: 24px
+    }
+}

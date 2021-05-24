@@ -1,0 +1,72 @@
+.host-container {
+    background-color: #f2ece2;
+    
+}
+
+.host-content{
+height: 85vh;
+align-items: center;
+
+}
+
+.host-txt{
+    width: 50%;
+}
+
+.host-form{
+    width: 400px
+}
+
+.form-txt {
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+form > *{
+    width: unset;
+}
+
+.form-input{
+    color: #606266;
+    font-size: inherit;
+    line-height: 40px;
+    padding: 10px 15px;
+    height: 60px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.form-input:not(:first-child) {
+    border-top: 1px solid #bbb;
+}
+
+.get-started-btn {
+    margin-top: 24px;
+    color: #fff;
+    width: 50%;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    outline: none;
+    background-image: radial-gradient(circle, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%);
+    border: none;
+    padding: 25px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.apply-btn {
+    margin-top: 24px;
+    color: #fff;
+    width: 100%;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    outline: none;
+    background-image: radial-gradient(circle, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%);
+    border: none;
+    padding: 25px;
+    overflow: hidden;
+    border-radius: 12px;
+}
